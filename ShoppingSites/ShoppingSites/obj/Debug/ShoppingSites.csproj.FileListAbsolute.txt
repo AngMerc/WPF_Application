@@ -1,0 +1,13 @@
+C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\ShoppingSites\bin\Debug\ShoppingSites.exe.config
+C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\ShoppingSites\bin\Debug\ShoppingSites.exe
+C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\ShoppingSites\bin\Debug\ShoppingSites.pdb
+C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\ShoppingSites\obj\Debug\ShoppingSites.csprojResolveAssemblyReference.cache
+C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\ShoppingSites\obj\Debug\MainWindow.baml
+C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\ShoppingSites\obj\Debug\MainWindow.g.cs
+C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\ShoppingSites\obj\Debug\App.g.cs
+C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\ShoppingSites\obj\Debug\ShoppingSites_MarkupCompile.cache
+C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\ShoppingSites\obj\Debug\ShoppingSites.g.resources
+C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\ShoppingSites\obj\Debug\ShoppingSites.Properties.Resources.resources
+C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\ShoppingSites\obj\Debug\ShoppingSites.csproj.GenerateResource.Cache
+C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\ShoppingSites\obj\Debug\ShoppingSites.exe
+C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\ShoppingSites\obj\Debug\ShoppingSites.pdb

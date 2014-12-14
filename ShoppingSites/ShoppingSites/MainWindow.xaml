@@ -1,0 +1,106 @@
+﻿<Window x:Class="ShoppingSites.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Shop Online This Christmas" Height="350" Width="401.119">
+    <Window.Resources>
+        <Style x:Key="BorderlessButton" TargetType="{x:Type Button}">
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Name="border" Background="{TemplateBinding Background}">
+                            <ContentPresenter Name="content" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+    Margin="{TemplateBinding Padding}"
+    RecognizesAccessKey="True"
+    SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+    VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="content" Property="RenderTransform" >
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX="1.1" ScaleY="1.1" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1" >
+                                            <GradientStop Color="LightGray" Offset="0.35"/>
+                                            <GradientStop Color="Gray" Offset="0.95"/>
+                                            <GradientStop Color="LightGray" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter TargetName="content" Property="RenderTransform" >
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX=".95" ScaleY=".95" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid x:Name="Christmas">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="87*"/>
+            <ColumnDefinition Width="298*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\images\Xmas.jpg"/>
+        </Grid.Background>
+        <Button Style="{StaticResource BorderlessButton}" x:Name="Overstock" Content="" HorizontalAlignment="Left" Margin="77,207,0,0" VerticalAlignment="Top" Width="182" Height="47" ToolTip="CLICK ME! Overstock.com Online Shopping" Grid.Column="1" Grid.ColumnSpan="2">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\images\overstock.gif" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lblTitle" Content="Favorite Shopping Sites!" HorizontalAlignment="Left" Margin="10.06,1,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontSize="35" FontFamily="Tekton Pro" FontWeight="Bold" Cursor="Hand" Width="356" Grid.ColumnSpan="2" Grid.Column="1">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Button Style="{StaticResource BorderlessButton}" x:Name="Target" Content="" HorizontalAlignment="Left" Margin="77,107,0,0" VerticalAlignment="Top" Width="182" Height="40" ToolTip="CLICK ME! Shop Target.com Today!" Grid.Column="1" Click="Target_Click" Grid.ColumnSpan="2">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\images\target.gif"/>
+            </Button.Background>
+        </Button>
+        <Button Style="{StaticResource BorderlessButton}" x:Name="Dicks" Content="" HorizontalAlignment="Left" Margin="30,150,0,0" VerticalAlignment="Top" Width="182" Height="56" ToolTip="CLICK ME! Dicks's Sporting Goods " Grid.Column="2">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\images\dicks.gif"/>
+            </Button.Background>
+        </Button>
+        <Button Style="{StaticResource BorderlessButton}" x:Name="_6pm" Content="" HorizontalAlignment="Left" Margin="29,256,0,0" VerticalAlignment="Top" Width="182" RenderTransformOrigin="-0.256,-0.072" Height="54" ToolTip="CLICK ME! 6pm Online Deals" Grid.Column="2">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\images\6pm.gif"/>
+            </Button.Background>
+        </Button>
+        <Button Style="{StaticResource BorderlessButton}" x:Name="Amazon" Content="" HorizontalAlignment="Left" Margin="29,56,0,0" VerticalAlignment="Top" Width="182" Height="44" ToolTip="CLICK ME! Amazon's Online Shopping" Grid.Column="2" Click="Amazon_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="C:\Users\Mercier\Documents\Angie School\Fall 2014\CIS2621 OOP II\Final Project\WPF Application\ShoppingSites\images\amazonlogo2.gif"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
